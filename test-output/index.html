@@ -1,0 +1,846 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-passed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>C:\Selenium_Apurva\Apurva\src\main\java\insuredge_apurva\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">25 methods,   25 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="insuredge_apurva.US17P4_18" class="method navigator-link" hash-for-method="T01_scrollRightToStatus">T01_scrollRightToStatus</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="insuredge_apurva.US17P4_18" class="method navigator-link" hash-for-method="T02_allSpecifiedHeadersPresent">T02_allSpecifiedHeadersPresent</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="insuredge_apurva.US17P4_18" class="method navigator-link" hash-for-method="T03_allSpecifiedHeadersAreBold">T03_allSpecifiedHeadersAreBold</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="insuredge_apurva.US17P4_16" class="method navigator-link" hash-for-method="tc01_loginAndOpenRejectedPage">tc01_loginAndOpenRejectedPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="insuredge_apurva.US17P4_16" class="method navigator-link" hash-for-method="tc02_verifyPageTitle">tc02_verifyPageTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="insuredge_apurva.US17P4_16" class="method navigator-link" hash-for-method="tc03_verifyBreadcrumb">tc03_verifyBreadcrumb</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="insuredge_apurva.US17P4_16" class="method navigator-link" hash-for-method="tc04_breadcrumbDashboardNavigates">tc04_breadcrumbDashboardNavigates</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="insuredge_apurva.US17P4_16" class="method navigator-link" hash-for-method="tc05_highlightLeftMenuItem">tc05_highlightLeftMenuItem</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="insuredge_apurva.US17P4_07" class="method navigator-link" hash-for-method="tc1_paginationIsVisible">tc1_paginationIsVisible</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="insuredge_apurva.US17P4_25" class="method navigator-link" hash-for-method="tc1_statusNotEditableOnClick">tc1_statusNotEditableOnClick</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="insuredge_apurva.US17P4_07" class="method navigator-link" hash-for-method="tc2_pageNumbersSequential">tc2_pageNumbersSequential</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="insuredge_apurva.US17P4_25" class="method navigator-link" hash-for-method="tc2_statusNoCopyPaste">tc2_statusNoCopyPaste</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="insuredge_apurva.US17P4_07" class="method navigator-link" hash-for-method="tc3_clickingPageChangesData">tc3_clickingPageChangesData</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="insuredge_apurva.US17P4_25" class="method navigator-link" hash-for-method="tc3_statusDoesNotChangeOnTyping">tc3_statusDoesNotChangeOnTyping</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="insuredge_apurva.US17P4_07" class="method navigator-link" hash-for-method="tc4_activePageHighlighted">tc4_activePageHighlighted</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="insuredge_apurva.US17P4_25" class="method navigator-link" hash-for-method="tc4_statusAlwaysRejected">tc4_statusAlwaysRejected</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="insuredge_apurva.US17P4_07" class="method navigator-link" hash-for-method="tc5_paginationVisibleOnResize">tc5_paginationVisibleOnResize</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="insuredge_apurva.US17P4_25" class="method navigator-link" hash-for-method="tc5_statusDoesNotChangeOnHover">tc5_statusDoesNotChangeOnHover</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="insuredge_apurva.US17P4_25" class="method navigator-link" hash-for-method="tc6_noUiToChangeStatus">tc6_noUiToChangeStatus</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="insuredge_apurva.US17P4_20" class="method navigator-link" hash-for-method="testPageNavigation">testPageNavigation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="insuredge_apurva.US17P4_20" class="method navigator-link" hash-for-method="testPageNumbersDisplayed">testPageNumbersDisplayed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="insuredge_apurva.US17P4_20" class="method navigator-link" hash-for-method="testPaginationControlDisplayed">testPaginationControlDisplayed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="insuredge_apurva.US17P4_09" class="method navigator-link" hash-for-method="testTC01_AlphanumericAccepted">testTC01_AlphanumericAccepted</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="insuredge_apurva.US17P4_09" class="method navigator-link" hash-for-method="testTC02_SpecialCharactersBehavior">testTC02_SpecialCharactersBehavior</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="insuredge_apurva.US17P4_09" class="method navigator-link" hash-for-method="testTC03_MixedInputBehavior">testTC03_MixedInputBehavior</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">insuredge_apurva.US17P4_25</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc1_statusNotEditableOnClick">
+                  </a> <!-- tc1_statusNotEditableOnClick -->
+                  <span class="method-name">tc1_statusNotEditableOnClick</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc2_statusNoCopyPaste">
+                  </a> <!-- tc2_statusNoCopyPaste -->
+                  <span class="method-name">tc2_statusNoCopyPaste</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc3_statusDoesNotChangeOnTyping">
+                  </a> <!-- tc3_statusDoesNotChangeOnTyping -->
+                  <span class="method-name">tc3_statusDoesNotChangeOnTyping</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc4_statusAlwaysRejected">
+                  </a> <!-- tc4_statusAlwaysRejected -->
+                  <span class="method-name">tc4_statusAlwaysRejected</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc5_statusDoesNotChangeOnHover">
+                  </a> <!-- tc5_statusDoesNotChangeOnHover -->
+                  <span class="method-name">tc5_statusDoesNotChangeOnHover</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc6_noUiToChangeStatus">
+                  </a> <!-- tc6_noUiToChangeStatus -->
+                  <span class="method-name">tc6_noUiToChangeStatus</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">insuredge_apurva.US17P4_07</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc1_paginationIsVisible">
+                  </a> <!-- tc1_paginationIsVisible -->
+                  <span class="method-name">tc1_paginationIsVisible</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc2_pageNumbersSequential">
+                  </a> <!-- tc2_pageNumbersSequential -->
+                  <span class="method-name">tc2_pageNumbersSequential</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc3_clickingPageChangesData">
+                  </a> <!-- tc3_clickingPageChangesData -->
+                  <span class="method-name">tc3_clickingPageChangesData</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc4_activePageHighlighted">
+                  </a> <!-- tc4_activePageHighlighted -->
+                  <span class="method-name">tc4_activePageHighlighted</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc5_paginationVisibleOnResize">
+                  </a> <!-- tc5_paginationVisibleOnResize -->
+                  <span class="method-name">tc5_paginationVisibleOnResize</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">insuredge_apurva.US17P4_16</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc01_loginAndOpenRejectedPage">
+                  </a> <!-- tc01_loginAndOpenRejectedPage -->
+                  <span class="method-name">tc01_loginAndOpenRejectedPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc02_verifyPageTitle">
+                  </a> <!-- tc02_verifyPageTitle -->
+                  <span class="method-name">tc02_verifyPageTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc03_verifyBreadcrumb">
+                  </a> <!-- tc03_verifyBreadcrumb -->
+                  <span class="method-name">tc03_verifyBreadcrumb</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc04_breadcrumbDashboardNavigates">
+                  </a> <!-- tc04_breadcrumbDashboardNavigates -->
+                  <span class="method-name">tc04_breadcrumbDashboardNavigates</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc05_highlightLeftMenuItem">
+                  </a> <!-- tc05_highlightLeftMenuItem -->
+                  <span class="method-name">tc05_highlightLeftMenuItem</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">insuredge_apurva.US17P4_09</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTC01_AlphanumericAccepted">
+                  </a> <!-- testTC01_AlphanumericAccepted -->
+                  <span class="method-name">testTC01_AlphanumericAccepted</span>
+                  <em>
+(TC-01: Alphanumeric values should be accepted)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTC02_SpecialCharactersBehavior">
+                  </a> <!-- testTC02_SpecialCharactersBehavior -->
+                  <span class="method-name">testTC02_SpecialCharactersBehavior</span>
+                  <em>
+(TC-02: Special characters behavior (blocked/sanitized OR accepted))                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTC03_MixedInputBehavior">
+                  </a> <!-- testTC03_MixedInputBehavior -->
+                  <span class="method-name">testTC03_MixedInputBehavior</span>
+                  <em>
+(TC-03: Mixed input behavior (sanitized OR accepted))                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">insuredge_apurva.US17P4_20</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPageNavigation">
+                  </a> <!-- testPageNavigation -->
+                  <span class="method-name">testPageNavigation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPageNumbersDisplayed">
+                  </a> <!-- testPageNumbersDisplayed -->
+                  <span class="method-name">testPageNumbersDisplayed</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPaginationControlDisplayed">
+                  </a> <!-- testPaginationControlDisplayed -->
+                  <span class="method-name">testPaginationControlDisplayed</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">insuredge_apurva.US17P4_18</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="T01_scrollRightToStatus">
+                  </a> <!-- T01_scrollRightToStatus -->
+                  <span class="method-name">T01_scrollRightToStatus</span>
+                  <em>
+(T01: Scroll RIGHT to reveal the 'Status' header (no vertical scroll))                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="T02_allSpecifiedHeadersPresent">
+                  </a> <!-- T02_allSpecifiedHeadersPresent -->
+                  <span class="method-name">T02_allSpecifiedHeadersPresent</span>
+                  <em>
+(T02: Verify all specified header names are present)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="T03_allSpecifiedHeadersAreBold">
+                  </a> <!-- T03_allSpecifiedHeadersAreBold -->
+                  <span class="method-name">T03_allSpecifiedHeadersAreBold</span>
+                  <em>
+(T03: Verify all specified header names are BOLD (font-weight >= 700 or 'bold'))                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Selenium_Apurva\Apurva\src\main\java\insuredge_apurva\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;insuredge_apurva.US17P4_07&quot;/&gt;
+      &lt;class name=&quot;insuredge_apurva.US17P4_09&quot;/&gt;
+      &lt;class name=&quot;insuredge_apurva.US17P4_16&quot;/&gt;
+      &lt;class name=&quot;insuredge_apurva.US17P4_18&quot;/&gt;
+      &lt;class name=&quot;insuredge_apurva.US17P4_20&quot;/&gt;
+      &lt;class name=&quot;insuredge_apurva.US17P4_25&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (6 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(25);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'tc01_loginAndOpenRejectedPage')
+data.setCell(0, 2, 'insuredge_apurva.US17P4_16')
+data.setCell(0, 3, 3299);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'tc5_paginationVisibleOnResize')
+data.setCell(1, 2, 'insuredge_apurva.US17P4_07')
+data.setCell(1, 3, 2420);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'tc04_breadcrumbDashboardNavigates')
+data.setCell(2, 2, 'insuredge_apurva.US17P4_16')
+data.setCell(2, 3, 2188);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'tc2_pageNumbersSequential')
+data.setCell(3, 2, 'insuredge_apurva.US17P4_07')
+data.setCell(3, 3, 1714);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'tc3_clickingPageChangesData')
+data.setCell(4, 2, 'insuredge_apurva.US17P4_07')
+data.setCell(4, 3, 1264);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'T02_allSpecifiedHeadersPresent')
+data.setCell(5, 2, 'insuredge_apurva.US17P4_18')
+data.setCell(5, 3, 1238);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'tc05_highlightLeftMenuItem')
+data.setCell(6, 2, 'insuredge_apurva.US17P4_16')
+data.setCell(6, 3, 1120);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'T03_allSpecifiedHeadersAreBold')
+data.setCell(7, 2, 'insuredge_apurva.US17P4_18')
+data.setCell(7, 3, 961);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'tc5_statusDoesNotChangeOnHover')
+data.setCell(8, 2, 'insuredge_apurva.US17P4_25')
+data.setCell(8, 3, 850);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testPageNavigation')
+data.setCell(9, 2, 'insuredge_apurva.US17P4_20')
+data.setCell(9, 3, 801);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testTC03_MixedInputBehavior')
+data.setCell(10, 2, 'insuredge_apurva.US17P4_09')
+data.setCell(10, 3, 425);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'tc2_statusNoCopyPaste')
+data.setCell(11, 2, 'insuredge_apurva.US17P4_25')
+data.setCell(11, 3, 420);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'tc3_statusDoesNotChangeOnTyping')
+data.setCell(12, 2, 'insuredge_apurva.US17P4_25')
+data.setCell(12, 3, 420);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'tc1_statusNotEditableOnClick')
+data.setCell(13, 2, 'insuredge_apurva.US17P4_25')
+data.setCell(13, 3, 410);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'testTC01_AlphanumericAccepted')
+data.setCell(14, 2, 'insuredge_apurva.US17P4_09')
+data.setCell(14, 3, 285);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'testTC02_SpecialCharactersBehavior')
+data.setCell(15, 2, 'insuredge_apurva.US17P4_09')
+data.setCell(15, 3, 265);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'testPageNumbersDisplayed')
+data.setCell(16, 2, 'insuredge_apurva.US17P4_20')
+data.setCell(16, 3, 224);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'tc03_verifyBreadcrumb')
+data.setCell(17, 2, 'insuredge_apurva.US17P4_16')
+data.setCell(17, 3, 205);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'tc1_paginationIsVisible')
+data.setCell(18, 2, 'insuredge_apurva.US17P4_07')
+data.setCell(18, 3, 205);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'T01_scrollRightToStatus')
+data.setCell(19, 2, 'insuredge_apurva.US17P4_18')
+data.setCell(19, 3, 181);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'tc02_verifyPageTitle')
+data.setCell(20, 2, 'insuredge_apurva.US17P4_16')
+data.setCell(20, 3, 120);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'tc6_noUiToChangeStatus')
+data.setCell(21, 2, 'insuredge_apurva.US17P4_25')
+data.setCell(21, 3, 111);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'testPaginationControlDisplayed')
+data.setCell(22, 2, 'insuredge_apurva.US17P4_20')
+data.setCell(22, 3, 104);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'tc4_statusAlwaysRejected')
+data.setCell(23, 2, 'insuredge_apurva.US17P4_25')
+data.setCell(23, 3, 99);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'tc4_activePageHighlighted')
+data.setCell(24, 2, 'insuredge_apurva.US17P4_07')
+data.setCell(24, 3, 87);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 19 seconds</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">insuredge_apurva.US17P4_07</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">tc1_paginationIsVisible</span>
+                <span class="method-start">7169 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">tc2_pageNumbersSequential</span>
+                <span class="method-start">7404 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">tc3_clickingPageChangesData</span>
+                <span class="method-start">9128 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">tc4_activePageHighlighted</span>
+                <span class="method-start">10398 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">tc5_paginationVisibleOnResize</span>
+                <span class="method-start">10492 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">12918 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">insuredge_apurva.US17P4_09</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpAndLogin</span>
+                <span class="method-start">18215 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">navigateToPendingPolicyHoldersAndFocusInput</span>
+                <span class="method-start">23004 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testTC01_AlphanumericAccepted</span>
+                <span class="method-start">24848 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">navigateToPendingPolicyHoldersAndFocusInput</span>
+                <span class="method-start">25136 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testTC02_SpecialCharactersBehavior</span>
+                <span class="method-start">26250 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">navigateToPendingPolicyHoldersAndFocusInput</span>
+                <span class="method-start">26523 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testTC03_MixedInputBehavior</span>
+                <span class="method-start">28249 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">28682 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">insuredge_apurva.US17P4_16</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">32642 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">tc01_loginAndOpenRejectedPage</span>
+                <span class="method-start">36117 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">tc02_verifyPageTitle</span>
+                <span class="method-start">39424 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">tc03_verifyBreadcrumb</span>
+                <span class="method-start">39549 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">tc04_breadcrumbDashboardNavigates</span>
+                <span class="method-start">39760 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">tc05_highlightLeftMenuItem</span>
+                <span class="method-start">41956 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">43084 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">insuredge_apurva.US17P4_18</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">47064 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">T01_scrollRightToStatus</span>
+                <span class="method-start">53564 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">T02_allSpecifiedHeadersPresent</span>
+                <span class="method-start">53756 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">T03_allSpecifiedHeadersAreBold</span>
+                <span class="method-start">55003 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">55969 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">insuredge_apurva.US17P4_20</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">60188 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testPaginationControlDisplayed</span>
+                <span class="method-start">66645 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testPageNumbersDisplayed</span>
+                <span class="method-start">66760 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testPageNavigation</span>
+                <span class="method-start">66996 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">67801 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">insuredge_apurva.US17P4_25</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">71742 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">tc1_statusNotEditableOnClick</span>
+                <span class="method-start">78267 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">tc2_statusNoCopyPaste</span>
+                <span class="method-start">78684 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">tc3_statusDoesNotChangeOnTyping</span>
+                <span class="method-start">79106 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">tc4_statusAlwaysRejected</span>
+                <span class="method-start">79535 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">tc5_statusDoesNotChangeOnHover</span>
+                <span class="method-start">79644 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">tc6_noUiToChangeStatus</span>
+                <span class="method-start">80503 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">80624 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

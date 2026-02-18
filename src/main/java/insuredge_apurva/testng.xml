@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+     <class name="insuredge_apurva.US17P4_07"/>
+     <class name="insuredge_apurva.US17P4_09"/>
+      <class name="insuredge_apurva.US17P4_16"/>
+      <class name="insuredge_apurva.US17P4_18"/>
+      <class name="insuredge_apurva.US17P4_20"/>
+      <class name="insuredge_apurva.US17P4_25"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

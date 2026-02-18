@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="25" passed="25" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-02-17T17:57:29 IST" name="Suite" finished-at="2026-02-17T17:58:54 IST" duration-ms="84588">
+    <groups>
+    </groups>
+    <test started-at="2026-02-17T17:57:29 IST" name="Test" finished-at="2026-02-17T17:58:54 IST" duration-ms="84588">
+      <class name="insuredge_apurva.US17P4_09">
+        <test-method is-config="true" signature="setUpAndLogin()[pri:0, instance:insuredge_apurva.US17P4_09@2002fc1d]" started-at="2026-02-17T17:57:47 IST" name="setUpAndLogin" finished-at="2026-02-17T17:57:52 IST" duration-ms="4786" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpAndLogin -->
+        <test-method is-config="true" signature="navigateToPendingPolicyHoldersAndFocusInput()[pri:0, instance:insuredge_apurva.US17P4_09@2002fc1d]" started-at="2026-02-17T17:57:52 IST" name="navigateToPendingPolicyHoldersAndFocusInput" finished-at="2026-02-17T17:57:54 IST" duration-ms="1842" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToPendingPolicyHoldersAndFocusInput -->
+        <test-method signature="testTC01_AlphanumericAccepted()[pri:0, instance:insuredge_apurva.US17P4_09@2002fc1d]" started-at="2026-02-17T17:57:54 IST" name="testTC01_AlphanumericAccepted" description="TC-01: Alphanumeric values should be accepted" finished-at="2026-02-17T17:57:54 IST" duration-ms="285" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTC01_AlphanumericAccepted -->
+        <test-method is-config="true" signature="navigateToPendingPolicyHoldersAndFocusInput()[pri:0, instance:insuredge_apurva.US17P4_09@2002fc1d]" started-at="2026-02-17T17:57:54 IST" name="navigateToPendingPolicyHoldersAndFocusInput" finished-at="2026-02-17T17:57:55 IST" duration-ms="1114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToPendingPolicyHoldersAndFocusInput -->
+        <test-method signature="testTC02_SpecialCharactersBehavior()[pri:0, instance:insuredge_apurva.US17P4_09@2002fc1d]" started-at="2026-02-17T17:57:55 IST" name="testTC02_SpecialCharactersBehavior" description="TC-02: Special characters behavior (blocked/sanitized OR accepted)" finished-at="2026-02-17T17:57:56 IST" duration-ms="265" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTC02_SpecialCharactersBehavior -->
+        <test-method is-config="true" signature="navigateToPendingPolicyHoldersAndFocusInput()[pri:0, instance:insuredge_apurva.US17P4_09@2002fc1d]" started-at="2026-02-17T17:57:56 IST" name="navigateToPendingPolicyHoldersAndFocusInput" finished-at="2026-02-17T17:57:57 IST" duration-ms="1726" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToPendingPolicyHoldersAndFocusInput -->
+        <test-method signature="testTC03_MixedInputBehavior()[pri:0, instance:insuredge_apurva.US17P4_09@2002fc1d]" started-at="2026-02-17T17:57:57 IST" name="testTC03_MixedInputBehavior" description="TC-03: Mixed input behavior (sanitized OR accepted)" finished-at="2026-02-17T17:57:58 IST" duration-ms="425" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTC03_MixedInputBehavior -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:insuredge_apurva.US17P4_09@2002fc1d]" started-at="2026-02-17T17:57:58 IST" name="tearDown" finished-at="2026-02-17T17:58:02 IST" duration-ms="3959" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- insuredge_apurva.US17P4_09 -->
+      <class name="insuredge_apurva.US17P4_20">
+        <test-method is-config="true" signature="setup()[pri:0, instance:insuredge_apurva.US17P4_20@ae13544]" started-at="2026-02-17T17:58:29 IST" name="setup" finished-at="2026-02-17T17:58:36 IST" duration-ms="6457" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testPaginationControlDisplayed()[pri:1, instance:insuredge_apurva.US17P4_20@ae13544]" started-at="2026-02-17T17:58:36 IST" name="testPaginationControlDisplayed" finished-at="2026-02-17T17:58:36 IST" duration-ms="104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPaginationControlDisplayed -->
+        <test-method signature="testPageNumbersDisplayed()[pri:2, instance:insuredge_apurva.US17P4_20@ae13544]" started-at="2026-02-17T17:58:36 IST" name="testPageNumbersDisplayed" finished-at="2026-02-17T17:58:36 IST" depends-on-methods="insuredge_apurva.US17P4_20.testPaginationControlDisplayed" duration-ms="224" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPageNumbersDisplayed -->
+        <test-method signature="testPageNavigation()[pri:3, instance:insuredge_apurva.US17P4_20@ae13544]" started-at="2026-02-17T17:58:36 IST" name="testPageNavigation" finished-at="2026-02-17T17:58:37 IST" depends-on-methods="insuredge_apurva.US17P4_20.testPageNumbersDisplayed" duration-ms="801" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPageNavigation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:insuredge_apurva.US17P4_20@ae13544]" started-at="2026-02-17T17:58:37 IST" name="tearDown" finished-at="2026-02-17T17:58:41 IST" duration-ms="3939" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- insuredge_apurva.US17P4_20 -->
+      <class name="insuredge_apurva.US17P4_25">
+        <test-method is-config="true" signature="setup()[pri:0, instance:insuredge_apurva.US17P4_25@3d34d211]" started-at="2026-02-17T17:58:41 IST" name="setup" finished-at="2026-02-17T17:58:47 IST" duration-ms="6524" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="tc1_statusNotEditableOnClick()[pri:0, instance:insuredge_apurva.US17P4_25@3d34d211]" started-at="2026-02-17T17:58:47 IST" name="tc1_statusNotEditableOnClick" finished-at="2026-02-17T17:58:48 IST" duration-ms="410" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc1_statusNotEditableOnClick -->
+        <test-method signature="tc2_statusNoCopyPaste()[pri:0, instance:insuredge_apurva.US17P4_25@3d34d211]" started-at="2026-02-17T17:58:48 IST" name="tc2_statusNoCopyPaste" finished-at="2026-02-17T17:58:48 IST" depends-on-methods="insuredge_apurva.US17P4_25.tc1_statusNotEditableOnClick" duration-ms="420" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc2_statusNoCopyPaste -->
+        <test-method signature="tc3_statusDoesNotChangeOnTyping()[pri:0, instance:insuredge_apurva.US17P4_25@3d34d211]" started-at="2026-02-17T17:58:48 IST" name="tc3_statusDoesNotChangeOnTyping" finished-at="2026-02-17T17:58:49 IST" depends-on-methods="insuredge_apurva.US17P4_25.tc2_statusNoCopyPaste" duration-ms="420" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc3_statusDoesNotChangeOnTyping -->
+        <test-method signature="tc4_statusAlwaysRejected()[pri:0, instance:insuredge_apurva.US17P4_25@3d34d211]" started-at="2026-02-17T17:58:49 IST" name="tc4_statusAlwaysRejected" finished-at="2026-02-17T17:58:49 IST" depends-on-methods="insuredge_apurva.US17P4_25.tc3_statusDoesNotChangeOnTyping" duration-ms="99" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc4_statusAlwaysRejected -->
+        <test-method signature="tc5_statusDoesNotChangeOnHover()[pri:0, instance:insuredge_apurva.US17P4_25@3d34d211]" started-at="2026-02-17T17:58:49 IST" name="tc5_statusDoesNotChangeOnHover" finished-at="2026-02-17T17:58:50 IST" depends-on-methods="insuredge_apurva.US17P4_25.tc4_statusAlwaysRejected" duration-ms="850" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc5_statusDoesNotChangeOnHover -->
+        <test-method signature="tc6_noUiToChangeStatus()[pri:0, instance:insuredge_apurva.US17P4_25@3d34d211]" started-at="2026-02-17T17:58:50 IST" name="tc6_noUiToChangeStatus" finished-at="2026-02-17T17:58:50 IST" depends-on-methods="insuredge_apurva.US17P4_25.tc5_statusDoesNotChangeOnHover" duration-ms="111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc6_noUiToChangeStatus -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:insuredge_apurva.US17P4_25@3d34d211]" started-at="2026-02-17T17:58:50 IST" name="tearDown" finished-at="2026-02-17T17:58:54 IST" duration-ms="3921" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- insuredge_apurva.US17P4_25 -->
+      <class name="insuredge_apurva.US17P4_16">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:insuredge_apurva.US17P4_16@69453e37]" started-at="2026-02-17T17:58:02 IST" name="setUp" finished-at="2026-02-17T17:58:05 IST" duration-ms="3475" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="tc01_loginAndOpenRejectedPage()[pri:1, instance:insuredge_apurva.US17P4_16@69453e37]" started-at="2026-02-17T17:58:05 IST" name="tc01_loginAndOpenRejectedPage" finished-at="2026-02-17T17:58:09 IST" duration-ms="3299" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc01_loginAndOpenRejectedPage -->
+        <test-method signature="tc02_verifyPageTitle()[pri:2, instance:insuredge_apurva.US17P4_16@69453e37]" started-at="2026-02-17T17:58:09 IST" name="tc02_verifyPageTitle" finished-at="2026-02-17T17:58:09 IST" depends-on-methods="insuredge_apurva.US17P4_16.tc01_loginAndOpenRejectedPage" duration-ms="120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc02_verifyPageTitle -->
+        <test-method signature="tc03_verifyBreadcrumb()[pri:3, instance:insuredge_apurva.US17P4_16@69453e37]" started-at="2026-02-17T17:58:09 IST" name="tc03_verifyBreadcrumb" finished-at="2026-02-17T17:58:09 IST" depends-on-methods="insuredge_apurva.US17P4_16.tc02_verifyPageTitle" duration-ms="205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc03_verifyBreadcrumb -->
+        <test-method signature="tc04_breadcrumbDashboardNavigates()[pri:4, instance:insuredge_apurva.US17P4_16@69453e37]" started-at="2026-02-17T17:58:09 IST" name="tc04_breadcrumbDashboardNavigates" finished-at="2026-02-17T17:58:11 IST" depends-on-methods="insuredge_apurva.US17P4_16.tc03_verifyBreadcrumb" duration-ms="2188" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc04_breadcrumbDashboardNavigates -->
+        <test-method signature="tc05_highlightLeftMenuItem()[pri:5, instance:insuredge_apurva.US17P4_16@69453e37]" started-at="2026-02-17T17:58:11 IST" name="tc05_highlightLeftMenuItem" finished-at="2026-02-17T17:58:12 IST" depends-on-methods="insuredge_apurva.US17P4_16.tc04_breadcrumbDashboardNavigates" duration-ms="1120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc05_highlightLeftMenuItem -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:insuredge_apurva.US17P4_16@69453e37]" started-at="2026-02-17T17:58:12 IST" name="tearDown" finished-at="2026-02-17T17:58:16 IST" duration-ms="3980" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- insuredge_apurva.US17P4_16 -->
+      <class name="insuredge_apurva.US17P4_18">
+        <test-method is-config="true" signature="setup()[pri:0, instance:insuredge_apurva.US17P4_18@6f4a47c7]" started-at="2026-02-17T17:58:16 IST" name="setup" finished-at="2026-02-17T17:58:23 IST" duration-ms="6496" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="T01_scrollRightToStatus()[pri:1, instance:insuredge_apurva.US17P4_18@6f4a47c7]" started-at="2026-02-17T17:58:23 IST" name="T01_scrollRightToStatus" description="T01: Scroll RIGHT to reveal the &#039;Status&#039; header (no vertical scroll)" finished-at="2026-02-17T17:58:23 IST" duration-ms="181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- T01_scrollRightToStatus -->
+        <test-method signature="T02_allSpecifiedHeadersPresent()[pri:2, instance:insuredge_apurva.US17P4_18@6f4a47c7]" started-at="2026-02-17T17:58:23 IST" name="T02_allSpecifiedHeadersPresent" description="T02: Verify all specified header names are present" finished-at="2026-02-17T17:58:24 IST" depends-on-methods="insuredge_apurva.US17P4_18.T01_scrollRightToStatus" duration-ms="1238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- T02_allSpecifiedHeadersPresent -->
+        <test-method signature="T03_allSpecifiedHeadersAreBold()[pri:3, instance:insuredge_apurva.US17P4_18@6f4a47c7]" started-at="2026-02-17T17:58:24 IST" name="T03_allSpecifiedHeadersAreBold" description="T03: Verify all specified header names are BOLD (font-weight &gt;= 700 or &#039;bold&#039;)" finished-at="2026-02-17T17:58:25 IST" depends-on-methods="insuredge_apurva.US17P4_18.T02_allSpecifiedHeadersPresent" duration-ms="961" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- T03_allSpecifiedHeadersAreBold -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:insuredge_apurva.US17P4_18@6f4a47c7]" started-at="2026-02-17T17:58:25 IST" name="tearDown" finished-at="2026-02-17T17:58:29 IST" duration-ms="4218" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- insuredge_apurva.US17P4_18 -->
+      <class name="insuredge_apurva.US17P4_07">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:insuredge_apurva.US17P4_07@8297b3a]" started-at="2026-02-17T17:57:29 IST" name="setUp" finished-at="2026-02-17T17:57:36 IST" duration-ms="7122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="tc1_paginationIsVisible()[pri:1, instance:insuredge_apurva.US17P4_07@8297b3a]" started-at="2026-02-17T17:57:36 IST" name="tc1_paginationIsVisible" finished-at="2026-02-17T17:57:37 IST" duration-ms="205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc1_paginationIsVisible -->
+        <test-method signature="tc2_pageNumbersSequential()[pri:2, instance:insuredge_apurva.US17P4_07@8297b3a]" started-at="2026-02-17T17:57:37 IST" name="tc2_pageNumbersSequential" finished-at="2026-02-17T17:57:38 IST" depends-on-methods="insuredge_apurva.US17P4_07.tc1_paginationIsVisible" duration-ms="1714" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc2_pageNumbersSequential -->
+        <test-method signature="tc3_clickingPageChangesData()[pri:3, instance:insuredge_apurva.US17P4_07@8297b3a]" started-at="2026-02-17T17:57:38 IST" name="tc3_clickingPageChangesData" finished-at="2026-02-17T17:57:40 IST" depends-on-methods="insuredge_apurva.US17P4_07.tc2_pageNumbersSequential" duration-ms="1264" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc3_clickingPageChangesData -->
+        <test-method signature="tc4_activePageHighlighted()[pri:4, instance:insuredge_apurva.US17P4_07@8297b3a]" started-at="2026-02-17T17:57:40 IST" name="tc4_activePageHighlighted" finished-at="2026-02-17T17:57:40 IST" depends-on-methods="insuredge_apurva.US17P4_07.tc3_clickingPageChangesData" duration-ms="87" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc4_activePageHighlighted -->
+        <test-method signature="tc5_paginationVisibleOnResize()[pri:5, instance:insuredge_apurva.US17P4_07@8297b3a]" started-at="2026-02-17T17:57:40 IST" name="tc5_paginationVisibleOnResize" finished-at="2026-02-17T17:57:42 IST" depends-on-methods="insuredge_apurva.US17P4_07.tc4_activePageHighlighted" duration-ms="2420" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc5_paginationVisibleOnResize -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:insuredge_apurva.US17P4_07@8297b3a]" started-at="2026-02-17T17:57:42 IST" name="tearDown" finished-at="2026-02-17T17:57:47 IST" duration-ms="5296" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- insuredge_apurva.US17P4_07 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

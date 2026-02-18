@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+  <test  name="Test07">
+  
+    <classes>
+      <class name="testngmajor.US17P4_07t"/> 
+      <class name="testngmajor.US17P4_09T"/>
+      <class name="testngmajor.US17P4_16T"/>
+      <class name="testngmajor.US17P4_18T"/>
+      <class name="testngmajor.US17P4_20T"/> 
+      <class name="testngmajor.US17P4_25T"/>
+    </classes>
+  </test> <!-- Test07 -->
+  
+  
+  
+</suite> <!-- Suite -->
